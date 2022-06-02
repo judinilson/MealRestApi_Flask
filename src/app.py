@@ -11,10 +11,10 @@ import os
 
 # default mongodb configuration
 default_config = {'MONGODB_SETTINGS': {
-    'db': 'meals',
+    'db': 'test_db',
     'host': 'localhost',
-    'JWT_SECRET_KEY': 'secretkey2393'
-}}
+},
+    'JWT_SECRET_KEY': 'changeThisKeyFirst'}
 
 
 def get_flask_app(config: dict = None) -> app.Flask:
